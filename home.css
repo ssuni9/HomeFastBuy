@@ -1,0 +1,236 @@
+@font-face {
+    font-family: 'icones';
+    src: url(../font/icones.ttf);
+}
+
+body{
+    font-family: 'Poppins','icones', sans-serif;
+}
+
+.nav{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #868686;
+    padding: 20px 20px;
+}
+
+.btn-homme{
+    background-color: transparent;
+    border: none;
+
+}
+
+.img-login{
+    width: 50px;
+}
+
+.img-carrinho{
+    width: 50px;
+}
+
+.logo{
+    width: 80px;
+    margin-left: 2\1rem;
+}
+
+.nav li{
+    list-style: none;
+    color: #fff;
+}
+
+.first img{
+    width: 100%;
+    height: 250px;
+    margin-top: 2rem;
+}
+
+.title-buy{
+    font-size: 1.5rem;
+    text-align: center;
+    margin-top: 2rem;
+    text-transform: unset;
+}
+
+.cards{
+    align-items: center;
+}
+
+.card{
+    background-color: #EBEBEB ;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 300px;
+    height: 340px;
+    border-radius: 8%;
+}
+
+.card img{
+    width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    border-radius: 8%;
+    margin-top: 2rem;
+}
+
+.card h3{
+    text-align: center;
+    margin-top: 2rem;
+    padding-top: 1rem;
+    font-size: 1.2rem;
+}
+
+.btn{
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    margin-top: 1.5rem;
+    margin-bottom: 2rem;
+    background-color: #F2F2F2;
+    font-size: 0.90rem;
+    border-radius: 8%;
+    padding: 5px 10px;
+    border-color: transparent;
+}
+
+.img_propaganda{
+    display: flex;
+}
+
+.img_propaganda img{
+    width: 40%;
+    margin-top: 2rem;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 8px;
+    margin-bottom: 2rem;
+}
+
+hr{
+    width: 90%;
+}
+
+.icones_diferenciais{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.icones_diferenciais img{
+    width: 40px;
+    margin-top: 2rem;
+    margin-left: 1rem;
+}
+
+.span{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    margin-top: 1rem;
+    margin-bottom: 3rem;
+}
+
+.footer{
+    display:flex;
+    justify-content:space-evenly;
+    align-items: center;
+    position: relative;
+}
+
+.footer h2{
+    position: absolute;
+    padding-top: 1rem;
+    margin-bottom: 6rem;
+}
+
+.footer img{
+    width: 2rem;
+    height: 2rem;
+    margin-top: 8rem;
+    margin-bottom: 3rem;
+}
+
+.copy {
+   text-align: center; 
+   font-size: 0.9rem;
+   margin-top: 1rem;
+   font-weight: 200;
+}
+
+.cnpj{
+    text-align: center;
+    font-size: 0.7rem;
+    margin-top: 0.5rem;
+}
+
+@media screen and (min-width:400){
+    .footer{
+        display:flex;
+        justify-content:space-evenly;
+        align-items: center;
+    }
+}
+
+
+@media screen and (min-width:700px){
+    .cards{
+        display: flex;
+        justify-content: space-evenly;
+    
+}
+
+
+@media screen and (min-width:700px){
+    .card {
+        min-width: 210px;
+        height: 330px;
+        margin-top: 2rem;
+        margin-left: 1rem;
+        margin-right: 1rem;
+    }
+    
+}
+
+@media screen and (min-width:700px){
+    .card img {
+        width: 150px;
+    }
+    
+}
+
+@media screen and (min-width:700px){
+    .img_propaganda img{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+}
+
+@media screen and (min-width:899px){
+    .card {
+        min-width: 270px;
+        height: 330px;
+        margin-top: 2rem;
+        margin-left: 1rem;
+        margin-right: 1rem;
+    }
+    
+}
+
+@media screen and (min-width:700px){
+    .card img {
+        width: 150px;
+    }
+}
+}
+
+@media screen and (min-width:900px){
+    .first img{
+        width: 100%;
+        height: 500px;
+    } 
+}
